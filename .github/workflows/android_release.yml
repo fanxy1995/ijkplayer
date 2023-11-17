@@ -1,9 +1,7 @@
 name: Android Release
 
 on:
-  push:
-    tags:
-      - 'f*'
+  workflow_dispatch:
 
 jobs:
   build:
